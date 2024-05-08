@@ -1,9 +1,16 @@
-
+import Navbar from "./Components/Navbar/Navbar";
+import IntroPage from "./Pages/Intro/IntroPage";
+import styles from "./Styles/App.module.css";
 function App() {
   return (
-    <div>
-      
-    </div>
+    <body>
+      <div className={styles.appContainer}>
+        <Navbar />
+        <div className={styles.pageContainer}>
+          <IntroPage />
+        </div>
+      </div>
+    </body>
   );
 }
 

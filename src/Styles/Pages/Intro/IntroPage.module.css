@@ -1,0 +1,28 @@
+.background {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(10, 19, 28);
+  display: grid;
+  grid-template-rows: 3fr 2.5fr;
+  color:aqua;
+}
+.introductionContainer {
+  display: grid;
+    grid-template-columns: 5fr 5fr;
+
+}
+.topCoinsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 1 1fr;
+}
+.introductionTextContainer {
+    width:100%;
+    justify-self: center;
+
+}
+.introductionImageContainer {
+    width:100%;
+
+}
